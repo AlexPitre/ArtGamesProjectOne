@@ -52,7 +52,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
+     <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\moveTowards.cs" />
+     <Compile Include="Assets\Scripts\stickTogether.cs" />
      <None Include="Assets\Laptop\StandardColorMask.shader" />
      <None Include="Assets\Gumball_Machine\Documentation\Gumball_Machine_Documentation.txt" />
      <None Include="Assets\FREE Food Pack\Shaders\Food.shader" />
