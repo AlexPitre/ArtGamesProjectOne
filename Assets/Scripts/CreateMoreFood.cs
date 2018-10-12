@@ -15,7 +15,7 @@ public class CreateMoreFood : MonoBehaviour {
 		{
 			if (stayCount > 0.25f)
 			{
-				Debug.Log("staying");
+				//Debug.Log("staying");
 				Instantiate (Food, Spawnpoint.position, Spawnpoint.rotation);
 				stayCount = stayCount - 0.25f;
 			}
