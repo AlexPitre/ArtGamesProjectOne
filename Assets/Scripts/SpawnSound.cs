@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SpawnSound : MonoBehaviour {
-	AudioSource audio;
+	//AudioSource audio;
 	void OnTriggerExit(Collider other)
 	{
 		if (other.tag == "food") {
